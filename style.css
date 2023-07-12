@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+#logoImage {
+    width: 3rem;
+    margin-right: 0.5rem;
+}
+
+#logoName {
+    margin-bottom: -0.3rem;
+    font-size: 1.5rem;
+}
+
+.nameAndTag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tagLine {
+    color: rgba(0, 0, 0, 0.517);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.locAndNotify {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
+.loc {
+    display: flex;
+    align-items: center;
+}
+
+#locIcon {
+    width: 1.2rem;
+    margin-right: 0.2rem;
+}
+
+#locText {
+    font-weight: 600;
+}
+
+.offer {
+    width: 100%;
+    padding: 1rem;
+}
+
+#offer {
+    padding-left: 0.5rem;
+}
+
+#offerImage {
+    width: 100%;
+    border-radius: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: -1.5rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.name,
+.number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+#name,
+#number {
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid black;
+    width: 100%;
+}
+
+#btn {
+    width: 50%;
+    padding: 0.5rem 2rem;
+    margin: 1.5rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.242);
+    color: white;
+    background-color: #ff4500;
+    font-weight: 600;
+}
+
+.why {
+    padding: 0.5rem;
+    margin-top: -1rem;
+    padding-bottom: 5rem;
+}
+
+#whyHeadline {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.why1 {
+    padding: 0.2rem 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#why1 {
+    width: 1.2rem;
+    margin-right: 0.4rem;
+}
+
