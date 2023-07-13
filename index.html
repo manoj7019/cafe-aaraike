@@ -19,7 +19,7 @@
                 </div>
             </div>
             </a>
-            <a href="">
+            <a href="https://maps.app.goo.gl/hNE7wDFCYqJ3dbqq6">
                 <div class="locAndNotify">
                     <div class="loc">
                         <img id="locIcon" src="./images/placeholder.png">
@@ -37,13 +37,13 @@
             <div class="details">
                 <div class="name">
                     <label for="name">Your nickname</label>
-                    <input id="name" type="name">
+                    <input id="name" type="name" class="inputs" onkeyup="checkInput()">
                 </div>
                 <div class="number">
                     <label for="number">Your Whatsapp number</label>
-                    <input id="number" type="number">
+                    <input id="number" type="number" class="inputs" onkeyup="checkInput()">
                 </div>
-                <input id="btn" type="button" value="Get discount code" onclick="submitForm(); setName();">
+                <input id="btn" type="button" value="Get discount code" onclick="submitForm(); setName();" disabled>
             </div>
         </form>
 
@@ -63,11 +63,11 @@
             </div>
             <div class="why1">
                 <img id="why1" src="./images/check.png">
-                <p id="whyText">Best chefs who love to cook.</p>
+                <p id="whyText">Passionate chefs who love to cook.</p>
             </div>
         </div>
         <!-- <div class="foot"> -->
-            <a class="foot" href="#">
+            <a class="foot" href="tel:+91-6361695837">
                 <img id="callIcon" src="./images/calling.png">
                 <p id="preOrder">Call us to pre-order now.</p>
             </a>

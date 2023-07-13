@@ -205,8 +205,13 @@ a {
 }
 
 #discImage {
-    margin: 1rem;
-    width: 50%;
+    margin: 0 1rem 1rem 1rem;
+    width: 40%;
+}
+
+#discHeadline {
+    font-size: 1.4rem;
+    padding: 0 1rem;
 }
 
 #discCode {
@@ -218,13 +223,17 @@ a {
     border-radius: 0.8rem;
 }
 
+#note {
+    color: #ff4500;
+}
+
 #screenshotText {
     margin: 0.3rem 1rem;
     font-size: 1.3rem;
 }
 
 #visitLine {
-    margin: 1.5rem 1rem;
+    margin: 1rem;
     font-size: 2rem;
     font-weight: 600;
     color: #ff4500;

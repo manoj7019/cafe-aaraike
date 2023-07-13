@@ -1,7 +1,3 @@
-function checkInput() {
-
-}
-
 function submitForm() {
     document.getElementById('submitForm').submit();
 }
@@ -33,4 +29,19 @@ function getCode() {
     let fullCode = `${codeLetter1}${codeLetter2}${codeNum1}${codeLetter3}${codeNum2}${codeLetter4}${codeLetter5}${codeLetter6}`;
     console.log(fullCode);
     discCode.textContent = `${fullCode}`;
+}
+
+function checkInput() {
+    let inputs = document.getElementsByClassName('inputs');
+    let btn = document.querySelector('#btn');
+    let isValid = true;
+
+    for (let i=0; i<inputs.length; i++) {
+        let changedInputs = inputs[i];
+        if(changedInputs.value.trim() === '' || changedInputs.value === null) {
+            isValid = false;
+            break;
+        }
+    }
+    btn.disabled = (!isValid);
 }
