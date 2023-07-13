@@ -50,7 +50,7 @@ a {
 #logoImage {
     width: 20rem;
     margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: -0.5rem;
 }
 
 #logoName {
@@ -182,7 +182,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.6rem;
+    padding: 0.7rem;
     bottom: 0;
     margin-bottom: -0.1rem;
     position: fixed;
