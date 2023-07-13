@@ -206,7 +206,7 @@ a {
 
 #discImage {
     margin: 0 1rem 1rem 1rem;
-    width: 40%;
+    width: 30%;
 }
 
 #discHeadline {
@@ -229,12 +229,12 @@ a {
 
 #screenshotText {
     margin: 0.3rem 1rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #visitLine {
     margin: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #ff4500;
     padding: 1rem 0 4rem 0;
