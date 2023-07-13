@@ -5,8 +5,21 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .container {
@@ -15,15 +28,23 @@ body {
     height: 100vh;
 }
 
-.logo {
+.head {
     display: flex;
-    align-items: center;
-    padding: 1rem 1.5rem;
+    flex-direction: column;
     background-color: white;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
     margin-bottom: -0.9rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    margin-bottom: -1rem;
 }
 
 #logoImage {
@@ -34,6 +55,7 @@ body {
 #logoName {
     margin-bottom: -0.3rem;
     font-size: 1.5rem;
+    color: #ff4500;
 }
 
 .nameAndTag {
@@ -43,15 +65,18 @@ body {
 }
 
 #tagLine {
-    color: rgba(0, 0, 0, 0.517);
-    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.588);
+    font-size: 0.9rem;
     font-weight: 500;
 }
 
 .locAndNotify {
+    background-color: rgba(11, 11, 11, 0.069);
     display: flex;
-    justify-content: space-between;
-    padding: 1rem 1.5rem;
+    border-radius: 0.8rem;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .loc {
@@ -66,6 +91,7 @@ body {
 
 #locText {
     font-weight: 600;
+    /* font-size: 0.5rem; */
 }
 
 .offer {
@@ -104,19 +130,23 @@ body {
 #name,
 #number {
     margin: 0.5rem 1rem;
-    padding: 0.5rem 2rem;
+    padding: 0.7rem 2rem;
     border-radius: 0.5rem;
-    border: 0.1rem solid black;
+    text-align: center;
+    /* border: 0.1rem solid black; */
+    border: none;
+    box-shadow: 0rem 0.2rem 0.5rem 0.1rem rgba(0, 0, 0, 0.172);
     width: 100%;
 }
 
 #btn {
-    width: 50%;
+    width: 60%;
+    font-size: 1.2rem;
     padding: 0.5rem 2rem;
     margin: 1.5rem 2rem;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     border: none;
-    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.242);
+    /* box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.133); */
     color: white;
     background-color: #ff4500;
     font-weight: 600;
@@ -142,5 +172,62 @@ body {
 #why1 {
     width: 1.2rem;
     margin-right: 0.4rem;
+}
+
+.foot {
+    background-color: #ff4500;
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    bottom: 0;
+    margin-bottom: -0.1rem;
+    position: fixed;
+    position: -webkit-sticky;
+    width: 100%;
+}
+
+#callIcon {
+    width: 2rem;
+}
+
+/* codePage.html */
+
+.discCode {
+    padding: 1rem;
+    margin: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#discImage {
+    margin: 1rem;
+    width: 50%;
+}
+
+#discCode {
+    margin: 1rem 1rem 2rem 1rem;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    background-color: #ff4500;
+    border-radius: 0.8rem;
+}
+
+#screenshotText {
+    margin: 0.3rem 1rem;
+    font-size: 1.3rem;
+}
+
+#visitLine {
+    margin: 1.5rem 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ff4500;
+    padding: 1rem 0 4rem 0;
 }
 
