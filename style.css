@@ -48,8 +48,9 @@ a {
 }
 
 #logoImage {
-    width: 3rem;
+    width: 20rem;
     margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 #logoName {
